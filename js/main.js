@@ -295,9 +295,9 @@
       open: function() {
         $('.project-carousel').owlCarousel({
           loop:true,
-          autoplay: true,
+          autoplay: false,
           margin:10,
-          nav:true,
+          nav:false,
           items:1,
           navText : ["<span class='ion-ios-arrow-back'></span>","<span class='ion-ios-arrow-forward'></span>"]
         });

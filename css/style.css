@@ -8402,8 +8402,8 @@ h1, h2, h3, h4, h5,
   .owl-carousel .owl-dots {
     text-align: center; }
     .owl-carousel .owl-dots .owl-dot {
-      width: 10px;
-      height: 10px;
+      width: 20px;
+      height: 20px;
       margin: 5px;
       border-radius: 50%;
       background: #e6e6e6;
@@ -8417,7 +8417,7 @@ h1, h2, h3, h4, h5,
         width: 14px;
         height: 14px;
         content: '';
-        border: 1px solid rgba(255, 255, 255, 0.3);
+        /* border: 1px solid rgba(255, 255, 255, 0.3); */
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
@@ -8425,7 +8425,7 @@ h1, h2, h3, h4, h5,
       .owl-carousel .owl-dots .owl-dot:hover, .owl-carousel .owl-dots .owl-dot:focus {
         outline: none !important; }
       .owl-carousel .owl-dots .owl-dot.active {
-        background: #b3b3b3; }
+        background: #507d59; }
   .owl-carousel.home-slider {
     position: relative;
     height: 750px;
@@ -9016,7 +9016,7 @@ h1, h2, h3, h4, h5,
         .project .text span {
           color: rgba(255, 255, 255, 0.8); } }
   .project:hover .overlay, .project:focus .overlay {
-    opacity: .4; }
+    opacity: .8; }
   .project:hover .text, .project:focus .text {
     opacity: 1; }
 
