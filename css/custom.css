@@ -107,3 +107,7 @@ PROJECT MODAL STYLE
     width: 35% !important;
     margin: 0 auto !important;
   }
+
+
+  .project .overlay, .project:focus .overlay {
+    opacity: .5; }
