@@ -111,3 +111,10 @@ PROJECT MODAL STYLE
 
   .project .overlay, .project:focus .overlay {
     opacity: .5; }
+
+    @media (max-width: 768px) {
+      .hero {
+        padding-top: 100px;
+        padding-bottom: 50px;
+      }
+    }
